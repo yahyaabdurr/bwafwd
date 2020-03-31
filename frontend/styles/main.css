@@ -1,0 +1,355 @@
+body {
+  background-color: #ffffff;
+  font-family: "Asisstant", sans-serif;
+  color: #071c4d;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.nav-link {
+  color: #071c4d;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: #071c4d;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 70px;
+  width: 90px;
+  border-radius: 0px;
+}
+
+.btn-login {
+  background-color: #071c4d;
+  color: #ffffff;
+}
+
+.btn-login:hover {
+  background-color: #1e3771;
+  color: #ffffff;
+}
+
+header {
+  padding: 107px 0 186px;
+  background-image: url(../images/header.jpg);
+  background-size: cover;
+  margin-top: -80px;
+  height: 650px;
+  color: #ffffff;
+}
+
+header h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+header p {
+  padding-top: 200px;
+  font-size: 22px;
+}
+
+header .btn-get-started {
+  margin-top: 6px !important;
+  background-color: #ff9e53;
+  color: #ffffff;
+}
+
+header .btn-get-started:hover {
+  background-color: #ffaa69;
+  color: #ffffff;
+}
+
+.section-stats {
+  min-height: 100px;
+  margin-top: -50px;
+  color: #071c4d;
+}
+
+.section-stats .stats-detail {
+  background-color: #ffffff;
+  padding-left: 40px;
+  padding-top: 15px;
+}
+
+.section-stats h2 {
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.section-stats p {
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.section-popular {
+  min-height: 540px;
+  background-color: #051334;
+  margin-top: -50px;
+  margin-bottom: -230px;
+}
+
+.section-popular .section-popular-heading {
+  margin-top: 150px;
+  color: #ffffff;
+}
+
+.section-popular h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-popular p {
+  font-family: "Assistant", serif;
+  font-size: 18px;
+}
+
+.section-popular-content .section-popular-travel {
+  color: #ffffff;
+}
+
+.section-popular-content .section-popular-travel .card-travel {
+  min-width: 260px;
+  min-height: 370px;
+  background-color: #000000;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.section-popular-content .section-popular-travel .travel.country {
+  font-size: 18px;
+}
+
+.section-popular-content .section-popular-travel .travel-location {
+  font-size: 26px;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details {
+  background-color: #ef7408;
+  color: #ffffff;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details:hover {
+  background-color: #fc9d49;
+  color: #ffffff;
+}
+
+.section-network {
+  color: #071c4d;
+  margin-top: -150px;
+  padding-top: 180px;
+  padding-bottom: 50px;
+}
+
+.section-network h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-network p {
+  font-size: 18px;
+}
+
+.section-network img {
+  max-width: 100%;
+}
+
+.section-testimonial {
+  min-height: 750px;
+  padding-top: 50px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f3f3f3), to(#faf9ff));
+  background: linear-gradient(#f3f3f3 0%, #faf9ff 100%);
+}
+
+.section-testimonial h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-testimonial p {
+  font-family: Assistant, serif;
+  font-size: 18px;
+}
+
+.section-testimonial-content {
+  margin-top: -550px;
+  padding-bottom: 50px;
+}
+
+.section-testimonial-content .card-testimonial {
+  padding-top: 40px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+}
+
+.section-testimonial-content .card-testimonial h3 {
+  font-size: 22px;
+}
+
+.section-testimonial-content .card-testimonial .testimonial {
+  font-size: 26px;
+  color: #6e6e6e;
+  font-weight: 100;
+  min-height: 150px;
+}
+
+.section-testimonial-content .card-testimonial .trip {
+  font-size: 22px;
+  font-weight: normal;
+  color: #6e6e6e;
+}
+
+.section-testimonial-content .btn-help {
+  background-color: #d2d2d2;
+  color: #ffffff;
+}
+
+.section-testimonial-content .btn-help:hover {
+  background-color: #8d8c8c;
+  color: #ffffff;
+}
+
+.section-testimonial-content .btn-get {
+  background-color: #ef7408;
+  color: white;
+}
+
+.section-testimonial-content .btn-get:hover {
+  background-color: #ff7905;
+  color: white;
+}
+
+.section-footer h5 {
+  font-size: 22px;
+  font-weight: 400px;
+}
+
+.section-footer a {
+  color: #071c4d;
+}
+
+.section-details-header {
+  background: #e4e6eb;
+  min-height: 310px;
+  margin-top: -70px;
+}
+
+.section-details-content {
+  min-height: 100vh;
+}
+
+.section-details-content .breadcrumb {
+  background-color: transparent;
+  margin-top: -210px;
+  padding: 0px;
+}
+
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #071c4d;
+}
+
+.card-content {
+  margin-top: -160px;
+  padding: 30px;
+  border-radius: 11px;
+  font-family: "Assistant", serif;
+  margin-bottom: 170px;
+}
+
+.card-content h1 {
+  font-size: 26px;
+  color: #071c4d;
+  font-weight: bold;
+}
+
+.card-content h2 {
+  font-size: 20px;
+  color: #071c4d;
+  font-weight: bold;
+}
+
+.card-content p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.card-content .features {
+  margin-top: 20px;
+}
+
+.card-content .features h3 {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.card-content .features p {
+  margin-bottom: 0px;
+  font-size: 14px;
+}
+
+.card-content .features .description {
+  margin-left: 10px;
+  float: left;
+  margin-bottom: 15px;
+}
+
+.card-content .features .featured-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.card-right {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom: 0;
+}
+
+.gallery .xzoom-container {
+  display: block;
+}
+
+.gallery .xzoom-container .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.gallery .xzoom-container .xactive {
+  border: 4px solid #1abc9c;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.members .members-image {
+  height: 40px;
+  width: 40px;
+}
+
+.join-container {
+  margin-top: -170px;
+}
+
+.btn-join {
+  background-color: #ff7911;
+  color: #ffffff;
+}
+
+.btn-join:hover {
+  background-color: #ff9e53;
+  color: #ffffff;
+}
+/*# sourceMappingURL=main.css.map */
