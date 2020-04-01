@@ -1,250 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Assistant|Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="frontend/libraries/bootstrap/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="frontend/libraries/xzoom/xzoom.css" />
+    <link rel="stylesheet" href="frontend/styles/main.css" />
+    <title>Document</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://fonts.googleapis.com/css?family=Assistant|Playfair+Display&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css" />
-  <link rel="stylesheet" href="frontend/libraries/xzoom/xzoom.css" />
-  <link rel="stylesheet" href="frontend/styles/main.css" />
-  <title>Document</title>
-</head>
-
-<body>
-  <!-- Navbar -->
-  <div class="container">
-    <nav class="row navbar navbar-expand-lg navbar-light bg-white">
-      <div class="navbar-nav ml-auto mr-auto mr-sm-auto mr-lg-0 mr-md-auto">
-        <a href="index.html" class="navbar-brand">
-          <img src="frontend/images/logo.png" alt="Gorillaz.id">
-        </a>
-      </div>
-      <ul class="navbar-nav mr-auto d-none d-lg-block">
-        <li>
-          <span class="text-muted">
-            | &nbsp; Rajanya travel sedunia
-          </span>
-        </li>
-      </ul>
-    </nav>
-  </div>
-
-  <!-- Main Content -->
-
-  <main>
-    <section class="section-details-header"></section>
-    <section class="section-details-content">
-      <div class="container">
-        <div class="row">
-          <nav>
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item">
-                Details
-              </li>
-              <li class="breadcrumb-item">
-                Paket Travel
-              </li>
-              <li class="breadcrumb-item active">
-                Checkout
-              </li>
-            </ol>
-          </nav>
+  <!-- nambah ini -->
+  <body>
+    <!-- Navbar -->
+    <div class="container">
+      <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+        <div class="navbar-nav ml-auto mr-auto mr-sm-auto mr-lg-0 mr-md-auto">
+          <a href="index.html" class="navbar-brand">
+            <img src="frontend/images/logo.png" alt="Gorillaz.id" />
+          </a>
         </div>
+        <ul class="navbar-nav mr-auto d-none d-lg-block">
+          <li>
+            <span class="text-muted">
+              | &nbsp; Rajanya travel sedunia
+            </span>
+          </li>
+        </ul>
+      </nav>
+    </div>
 
-        <div class="row">
-          <div class="col-lg-8 pl-lg-0">
-            <div class="card card-content">
-              <h1>Who is going?</h1>
-              <p> Trip to Mekkah, Arab Saudi</p>
+    <!-- Main Content -->
 
-              <div class="attender">
-                <table class="table table-responsive-sm text-center">
-                  <thead>
-                    <tr>
-                      <td>Picture</td>
-                      <td>Name</td>
-                      <td>Nationality</td>
-                      <td>VISA</td>
-                      <td>Passport</td>
-                      <td> </td>
-                    </tr>
-                  </thead>
+    <main>
+      <section class="section-details-header"></section>
+      <section class="section-details-content">
+        <div class="container">
+          <div class="row">
+            <nav>
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  Details
+                </li>
+                <li class="breadcrumb-item">
+                  Paket Travel
+                </li>
+                <li class="breadcrumb-item active">
+                  Checkout
+                </li>
+              </ol>
+            </nav>
+          </div>
 
-                  <tbody>
-                    <tr>
-                      <td class="align-middle">
-                        <img src="/frontend/images/member-1.png">
-                      </td>
-                      <td class="align-middle">
-                        Yahya Abdurrozaq
-                      </td>
-                      <td class="align-middle">
-                        ID
-                      </td>
-                      <td class="align-middle">
-                        N/A
-                      </td>
-                      <td class="align-middle">
-                        Avaible
-                      </td>
-                      <td class="align-middle">
-                        <a href="#">
-                          <img src="frontend/images/ic_remove.png" alt="">
-                        </a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="align-middle">
-                        <img src="/frontend/images/member-1.png">
-                      </td>
-                      <td class="align-middle">
-                        Nada Fathimah
-                      </td>
-                      <td class="align-middle">
-                        ID
-                      </td>
-                      <td class="align-middle">
-                        N/A
-                      </td>
-                      <td class="align-middle">
-                        Avaible
-                      </td>
-                      <td class="align-middle">
-                        <a href="#">
-                          <img src="frontend/images/ic_remove.png" alt="">
-                        </a>
-                      </td>
-                    </tr>
-                  </tbody>
+          <div class="row">
+            <div class="col-lg-8 pl-lg-0">
+              <div class="card card-content">
+                <h1>Who is going?</h1>
+                <p>Trip to Mekkah, Arab Saudi</p>
+
+                <div class="attender">
+                  <table class="table table-responsive-sm text-center">
+                    <thead>
+                      <tr>
+                        <td>Picture</td>
+                        <td>Name</td>
+                        <td>Nationality</td>
+                        <td>VISA</td>
+                        <td>Passport</td>
+                        <td></td>
+                      </tr>
+                    </thead>
+
+                    <tbody>
+                      <tr>
+                        <td class="align-middle">
+                          <img src="/frontend/images/member-1.png" />
+                        </td>
+                        <td class="align-middle">
+                          Yahya Abdurrozaq
+                        </td>
+                        <td class="align-middle">
+                          ID
+                        </td>
+                        <td class="align-middle">
+                          N/A
+                        </td>
+                        <td class="align-middle">
+                          Avaible
+                        </td>
+                        <td class="align-middle">
+                          <a href="#">
+                            <img src="frontend/images/ic_remove.png" alt="" />
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="align-middle">
+                          <img src="/frontend/images/member-1.png" />
+                        </td>
+                        <td class="align-middle">
+                          Nada Fathimah
+                        </td>
+                        <td class="align-middle">
+                          ID
+                        </td>
+                        <td class="align-middle">
+                          N/A
+                        </td>
+                        <td class="align-middle">
+                          Avaible
+                        </td>
+                        <td class="align-middle">
+                          <a href="#">
+                            <img src="frontend/images/ic_remove.png" alt="" />
+                          </a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div class="member mt-3">
+                  <h2>Add Member</h2>
+                  <form action="" class="form-inline">
+                    <label for="inputUssername" class="sr-only">Name</label>
+                    <input
+                      type="text"
+                      class="form-control mb-2 mr-sm-2"
+                      id="inputUssername"
+                      placeholder="Ussername"
+                    />
+                    <label for="inputVisa" class="sr-only">Name</label>
+                    <select id="inputVisa" class="custom-select mb-2 mr-sm-2">
+                      <option value="VISA" selected>Selected Visa</option>
+                      <option value="30 Days">30 Days</option>
+                      <option value="N/A">N/A</option>
+                    </select>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="card card-content card-right">
+                <h2>Members</h2>
+                <div class="members my-2">
+                  <img
+                    src="/frontend/images/member-1.png"
+                    class="members-image mr-1"
+                    alt=""
+                  />
+                  <img
+                    src="/frontend/images/member-2.png"
+                    class="members-image mr-1"
+                    alt=""
+                  />
+                  <img
+                    src="/frontend/images/member-3.png"
+                    class="members-image mr-1"
+                    alt=""
+                  />
+                  <img
+                    src="/frontend/images/member-4.png"
+                    class="members-image mr-1"
+                    alt=""
+                  />
+                  <img
+                    src="/frontend/images/member-5.png"
+                    class="members-image mr-1"
+                    alt=""
+                  />
+                </div>
+                <hr />
+                <h2>Trip Informations</h2>
+                <table class="trip-informations">
+                  <tr>
+                    <th width="50%">Date of Departures</th>
+                    <td width="50%" class="text-right">22 Agustus 2020</td>
+                  </tr>
+                  <tr>
+                    <th width="50%">Duration</th>
+                    <td width="50%" class="text-right">4D 3N</td>
+                  </tr>
+                  <tr>
+                    <th width="50%">Type</th>
+                    <td width="50%" class="text-right">Open Trip</td>
+                  </tr>
+                  <tr>
+                    <th width="50%">Price</th>
+                    <td widht="50%" class="text-right">$80,00/ person</td>
+                  </tr>
                 </table>
               </div>
-
-              <div class="member mt-3">
-                <h2>Add Member</h2>
-                <form action="" class="form-inline">
-                  <label for="inputUssername" class="sr-only">Name</label>
-                  <input type="text" class="form-control mb-2 mr-sm-2" id="inputUssername" placeholder="Ussername" />
-                  <label for="inputVisa" class="sr-only">Name</label>
-                  <select id="inputVisa" class="custom-select mb-2 mr-sm-2">
-                    <option value="VISA" selected>Selected Visa</option>
-                    <option value="30 Days">30 Days</option>
-                    <option value="N/A">N/A</option>
-                  </select>
-                </form>
+              <div class="join-container">
+                <a href="#" class="btn btn-join btn-block mt-3 my-2">
+                  Join Now</a
+                >
               </div>
             </div>
           </div>
+        </div>
+      </section>
+    </main>
 
-          <div class="col-lg-4">
-            <div class="card card-content card-right">
-              <h2>Members</h2>
-              <div class="members my-2">
-                <img src="/frontend/images/member-1.png" class="members-image mr-1" alt="">
-                <img src="/frontend/images/member-2.png" class="members-image mr-1" alt="">
-                <img src="/frontend/images/member-3.png" class="members-image mr-1" alt="">
-                <img src="/frontend/images/member-4.png" class="members-image mr-1" alt="">
-                <img src="/frontend/images/member-5.png" class="members-image mr-1" alt="">
+    <footer class="section-footer mt-5 mb-4 border-top">
+      <div class="container pt-5 pb-5">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-6 col-lg-3">
+                <h5>FEATURES</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Reviews</a></li>
+                  <li><a href="#">Community</a></li>
+                  <li><a href="#">Social Media Kit</a></li>
+                  <li><a href="#">Affiliate</a></li>
+                </ul>
               </div>
-              <hr>
-              <h2>Trip Informations</h2>
-              <table class="trip-informations">
-                <tr>
-                  <th width="50%">Date of Departures</th>
-                  <td width="50%" class="text-right">22 Agustus 2020</td>
-                </tr>
-                <tr>
-                  <th width="50%">Duration</th>
-                  <td width="50%" class="text-right">4D 3N</td>
-                </tr>
-                <tr>
-                  <th width="50%">Type</th>
-                  <td width="50%" class="text-right">Open Trip</td>
-                </tr>
-                <tr>
-                  <th width="50%">Price</th>
-                  <td widht="50%" class="text-right"> $80,00/ person</td>
-                </tr>
-              </table>
-            </div>
-            <div class="join-container">
-              <a href="#" class="btn btn-join btn-block mt-3 my-2"> Join Now</a>
+              <div class="col-6 col-lg-3">
+                <h5>ACCOUNT</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Refund</a></li>
+                  <li><a href="#">Security</a></li>
+                  <li><a href="#">Rewards</a></li>
+                  <li><a href="#">Affiliate</a></li>
+                </ul>
+              </div>
+
+              <div class="col-6 col-lg-3">
+                <h5>COMPANY</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Career</a></li>
+                  <li><a href="#">Help Center</a></li>
+                  <li><a href="#">Media</a></li>
+                  <li><a href="#">Affiliate</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-lg-3">
+                <h5>GET CONNECTED</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Depok</a></li>
+                  <li><a href="#">Jawa Barat</a></li>
+                  <li><a href="#">Indonesia</a></li>
+                  <li><a href="#">support@gorillaz.id</a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-  </main>
 
-  <footer class="section-footer mt-5 mb-4 border-top">
-    <div class="container pt-5 pb-5">
-      <div class="row justify-content-center">
-        <div class="col-12">
-          <div class="row">
-            <div class="col-6 col-lg-3">
-              <h5>FEATURES</h5>
-              <ul class="list-unstyled">
-                <li><a href="#">Reviews</a></li>
-                <li><a href="#">Community</a></li>
-                <li><a href="#">Social Media Kit</a></li>
-                <li><a href="#">Affiliate</a></li>
-              </ul>
-            </div>
-            <div class="col-6 col-lg-3">
-              <h5>ACCOUNT</h5>
-              <ul class="list-unstyled">
-                <li><a href="#">Refund</a></li>
-                <li><a href="#">Security</a></li>
-                <li><a href="#">Rewards</a></li>
-                <li><a href="#">Affiliate</a></li>
-              </ul>
-            </div>
-
-            <div class="col-6 col-lg-3">
-              <h5>COMPANY</h5>
-              <ul class="list-unstyled">
-                <li><a href="#">Career</a></li>
-                <li><a href="#">Help Center</a></li>
-                <li><a href="#">Media</a></li>
-                <li><a href="#">Affiliate</a></li>
-              </ul>
-            </div>
-            <div class="col-6 col-lg-3">
-              <h5>GET CONNECTED</h5>
-              <ul class="list-unstyled">
-                <li><a href="#">Depok</a></li>
-                <li><a href="#">Jawa Barat</a></li>
-                <li><a href="#">Indonesia</a></li>
-                <li><a href="#">support@gorillaz.id</a></li>
-              </ul>
-            </div>
+      <div class="container-fluid">
+        <div
+          class="row border-top justify-content-center align-items-center pt-4"
+        >
+          <div class="col-auto text-gray-500 font-weight-light">
+            2020 Copyright Gorillaz • All rights reserved • Made in Depok
           </div>
         </div>
       </div>
-    </div>
+    </footer>
 
-    <div class="container-fluid">
-      <div class="row border-top justify-content-center align-items-center pt-4">
-        <div class="col-auto text-gray-500 font-weight-light">
-          2020 Copyright Gorillaz • All rights reserved • Made in Depok
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <script src=" frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
-  <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
-  <script src="frontend/libraries/xzoom/xzoom.min.js"></script>
-  <script>
-    $(document).ready(function () {
-      $(".xzoom, .xzoom-gallery").xzoom({
-        zoomWidth: 500,
-        title: false,
-        tint: "#333",
-        Xoffset: 15
+    <script src=" frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+    <script src="frontend/libraries/xzoom/xzoom.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $(".xzoom, .xzoom-gallery").xzoom({
+          zoomWidth: 500,
+          title: false,
+          tint: "#333",
+          Xoffset: 15
+        });
       });
-    });
-  </script>
-</body>
-
+    </script>
+  </body>
 </html>
