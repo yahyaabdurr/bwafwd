@@ -292,11 +292,58 @@ header {
     font-weight: bold;
   }
 
+  h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #071c4d;
+  }
+
   p {
     font-size: 18px;
     text-align: justify;
   }
 
+  .trip-informations {
+    th {
+      font-weight: 300;
+      font-size: 18px;
+      color: #071c4d;
+    }
+
+    td {
+      font-weight: 300;
+      font-size: 18px;
+      color: #b1b1b1;
+    }
+  }
+
+  .disclaimer {
+    font-weight: 300;
+    font-size: 14px;
+    color: #b1b1b1;
+  }
+
+  .gj-datepicker {
+    .datepicker {
+      border-right: 0px;
+    }
+
+    .input-group-append {
+      .btn {
+        padding-right: 30px;
+      }
+    }
+  }
+
+  .btn-add-now {
+    background-color: #071c4d;
+    color: #ffffff;
+
+    &:hover {
+      background-color: #0c38a0;
+      color: #ffffff;
+    }
+  }
   .features {
     margin-top: 20px;
 

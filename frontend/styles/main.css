@@ -280,9 +280,51 @@ header .btn-get-started:hover {
   font-weight: bold;
 }
 
+.card-content h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #071c4d;
+}
+
 .card-content p {
   font-size: 18px;
   text-align: justify;
+}
+
+.card-content .trip-informations th {
+  font-weight: 300;
+  font-size: 18px;
+  color: #071c4d;
+}
+
+.card-content .trip-informations td {
+  font-weight: 300;
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
+.card-content .disclaimer {
+  font-weight: 300;
+  font-size: 14px;
+  color: #b1b1b1;
+}
+
+.card-content .gj-datepicker .datepicker {
+  border-right: 0px;
+}
+
+.card-content .gj-datepicker .input-group-append .btn {
+  padding-right: 30px;
+}
+
+.card-content .btn-add-now {
+  background-color: #071c4d;
+  color: #ffffff;
+}
+
+.card-content .btn-add-now:hover {
+  background-color: #0c38a0;
+  color: #ffffff;
 }
 
 .card-content .features {
