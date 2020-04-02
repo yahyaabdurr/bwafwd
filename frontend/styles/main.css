@@ -303,6 +303,47 @@ header .btn-get-started:hover {
   color: #b1b1b1;
 }
 
+.card-content .trip-informations td .text-blue {
+  color: #071c4d;
+  font-weight: bold;
+}
+
+.card-content .trip-informations td .text-orange {
+  color: #ef7408;
+  font-weight: bold;
+}
+
+.card-content .payment-instructions {
+  font-weight: 300;
+  font-size: 14px;
+  color: #b1b1b1;
+}
+
+.card-content .bank .bank-item h3 {
+  font-size: 16px;
+  color: #071c4d;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+.card-content .bank .bank-item p {
+  color: #071c4d;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.card-content .bank .bank-item .description {
+  float: left;
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+.card-content .bank .bank-image {
+  height: 45px;
+  width: 45px;
+  float: left;
+}
+
 .card-content .disclaimer {
   font-weight: 300;
   font-size: 14px;
@@ -388,6 +429,7 @@ header .btn-get-started:hover {
 .btn-join {
   background-color: #ff7911;
   color: #ffffff;
+  border-radius: 0;
 }
 
 .btn-join:hover {

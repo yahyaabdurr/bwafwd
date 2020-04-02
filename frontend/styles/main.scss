@@ -314,6 +314,48 @@ header {
       font-weight: 300;
       font-size: 18px;
       color: #b1b1b1;
+
+      .text-blue {
+        color: #071c4d;
+        font-weight: bold;
+      }
+
+      .text-orange {
+        color: #ef7408;
+        font-weight: bold;
+      }
+    }
+  }
+  .payment-instructions {
+    font-weight: 300;
+    font-size: 14px;
+    color: #b1b1b1;
+  }
+
+  .bank {
+    .bank-item {
+      h3 {
+        font-size: 16px;
+        color: #071c4d;
+        margin-bottom: 0;
+        font-weight: 300;
+      }
+      p {
+        color: #071c4d;
+        font-weight: normal;
+        font-size: 16px;
+      }
+
+      .description {
+        float: left;
+        margin-left: 10px;
+        overflow: hidden;
+      }
+    }
+    .bank-image {
+      height: 45px;
+      width: 45px;
+      float: left;
     }
   }
 
@@ -408,6 +450,7 @@ header {
 .btn-join {
   background-color: #ff7911;
   color: #ffffff;
+  border-radius: 0;
   &:hover {
     background-color: #ff9e53;
     color: #ffffff;
