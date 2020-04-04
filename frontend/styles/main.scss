@@ -437,6 +437,13 @@ header {
   }
 }
 
+.member {
+  .input-group {
+    .form-control {
+      width: 130px;
+    }
+  }
+}
 .members {
   .members-image {
     height: 40px;
@@ -454,5 +461,32 @@ header {
   &:hover {
     background-color: #ff9e53;
     color: #ffffff;
+  }
+}
+
+.section-success {
+  height: 90vh;
+
+  h1 {
+    font-weight: 600;
+    color: #071c4d;
+    font-size: 26px;
+  }
+  p {
+    font-weight: 300;
+    color: #b1b1b1;
+    font-size: 18px;
+  }
+
+  .btn-success {
+    color: #ffffff;
+    background-color: #071c4d;
+    border-radius: 4px;
+
+    &:hover {
+      color: #ffffff;
+      background-color: #1f408d;
+      border-radius: 4px;
+    }
   }
 }
